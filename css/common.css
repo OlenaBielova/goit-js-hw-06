@@ -30,6 +30,7 @@ button {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start; 
+  gap: 20px;
 }
 
 .gallery li {
