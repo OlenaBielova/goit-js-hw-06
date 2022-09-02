@@ -5,10 +5,10 @@ let counterValue = 0;
 
 decrementBtn.addEventListener('click', () => {
     counterValue -= 1;
-    document.querySelector("#value").innerHTML = counterValue;
+    document.querySelector("#value").textContent = counterValue;
 });
 
 incrementBtn.addEventListener('click', () => {
     counterValue += 1;
-    document.querySelector("#value").innerHTML = counterValue;
+    document.querySelector("#value").textContent = counterValue;
 });
