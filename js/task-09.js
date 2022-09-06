@@ -7,9 +7,8 @@ function getRandomHexColor() {
 }
 
 button.addEventListener("click", () => {
-widget.style.backgroundColor = `${getRandomHexColor()}`;
-
-colorValue.textContent = `${getRandomHexColor()}`;
-    console.log(style.innerHTML);
+  const randomColor = getRandomHexColor();
+  widget.style.backgroundColor = `${randomColor}`;
+  colorValue.textContent = `${randomColor}`;
 });
 
