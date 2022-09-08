@@ -48,6 +48,3 @@ destroyBtn.addEventListener("click", () => {
 
 
 
-// получить число из инпута
-//создать массив из Числа обектов - коробок - и map
-// insertAdjacentHTML 
